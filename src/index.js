@@ -8,7 +8,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import reducer from './store/reducer';
 
-const store = createStore(reducer); 
+const store = createStore(reducer);
 
 //connect store to react by Provider
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
